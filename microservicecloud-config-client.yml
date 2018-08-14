@@ -1,8 +1,12 @@
-﻿server: 
-  port: 3201
+﻿profiles: 
+  active: 
+  - dev
+
+server: 
+  port: 8201
 
 spring: 
-  profiles: dey
+  profiles: dev
   application: 
   name: microservicecloud-config-client
 
